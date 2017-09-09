@@ -1,0 +1,177 @@
+/* line 5, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, E:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../scss/index.scss */
+body, p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 6, ../scss/index.scss */
+img {
+  display: block;
+  border: 0;
+}
+
+/* line 11, ../scss/index.scss */
+html {
+  font-size: 100px;
+  font-family: 'Microsoft Yahei', Arial;
+}
+
+/* line 15, ../scss/index.scss */
+header nav, .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 20, ../scss/index.scss */
+header {
+  color: blue;
+}
+/* line 22, ../scss/index.scss */
+header nav {
+  height: 1.2rem;
+  box-shadow: 0 2px 4px #666;
+}
+/* line 26, ../scss/index.scss */
+header nav a {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.44rem;
+  margin: 0 0.05rem;
+  font-weight: bold;
+  font-size: 0.26rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* line 37, ../scss/index.scss */
+header nav a:nth-child(1) {
+  background-image: url(../img/1.png);
+}
+/* line 40, ../scss/index.scss */
+header nav a:nth-child(2) {
+  background-image: url(../img/2.png);
+}
+/* line 43, ../scss/index.scss */
+header nav a:nth-child(3) {
+  width: 3.86rem;
+  line-height: 0.44rem;
+  text-align: center;
+}
+/* line 48, ../scss/index.scss */
+header nav a:nth-child(4) {
+  background-image: url(../img/3.png);
+}
+/* line 51, ../scss/index.scss */
+header nav a:nth-child(5) {
+  background-image: url(../img/4.png);
+}
+
+/* line 56, ../scss/index.scss */
+.nav {
+  height: 0.8rem;
+}
+/* line 59, ../scss/index.scss */
+.nav a {
+  padding: 0 0.4rem;
+  font-size: 0.22rem;
+}
+
+/* line 64, ../scss/index.scss */
+img {
+  height: 5rem;
+  width: 100%;
+}
+
+/* line 68, ../scss/index.scss */
+.go-goods {
+  height: 2.92rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+/* line 72, ../scss/index.scss */
+.go-goods p:nth-child(1) {
+  padding-top: 0.5rem;
+  font-size: 0.46rem;
+  font-weight: bold;
+}
+/* line 77, ../scss/index.scss */
+.go-goods p:nth-child(2) {
+  padding: 0.1rem 0 0.4rem;
+  font-size: 0.28rem;
+}
+/* line 81, ../scss/index.scss */
+.go-goods p:nth-child(3) {
+  width: 2rem;
+  height: 0.6rem;
+  margin: 0 auto;
+  line-height: 0.6rem;
+  font-size: 0.18rem;
+  background-color: #000;
+  color: #fff;
+}
