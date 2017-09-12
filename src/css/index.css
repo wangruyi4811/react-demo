@@ -68,13 +68,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 80%;
   margin: 0 auto;
   font-size: 0.26rem;
-  border: 2px solid red;
+  border: 2px solid #d9d9d9;
 }
 /* line 6, ../scss/_tab-ul.scss */
+.goods-class p {
+  text-align: center;
+}
+/* line 7, ../scss/_tab-ul.scss */
+.goods-class p:nth-child(1) {
+  position: relative;
+  box-sizing: border-box;
+  width: 3.56rem;
+  margin: 0 auto;
+  padding: 0.15rem 0.4rem 0.1rem;
+  border-bottom: 1px solid #000;
+}
+/* line 14, ../scss/_tab-ul.scss */
+.goods-class p:nth-child(1) i {
+  position: absolute;
+  left: -0.1rem;
+  top: 50%;
+  margin-top: -0.15rem;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+/* line 22, ../scss/_tab-ul.scss */
+.goods-class p:nth-child(1) input {
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 0.18rem;
+}
+/* line 31, ../scss/_tab-ul.scss */
+.goods-class p a {
+  padding: 0 0.08rem;
+  margin: 0 0.42rem;
+  font-weight: bold;
+}
+/* line 35, ../scss/_tab-ul.scss */
+.goods-class p a:hover {
+  border-bottom: 2px solid #000;
+}
+/* line 40, ../scss/_tab-ul.scss */
 .goods-class ul {
   width: 100%;
 }
-/* line 9, ../scss/_tab-ul.scss */
+/* line 43, ../scss/_tab-ul.scss */
 .goods-class li {
   display: inline-block;
   width: 33.33%;
@@ -83,37 +123,68 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 3, ../scss/index.scss */
+/* line 80, logo/*.png */
+.logo-sprite, .logo-1, .logo-2, .logo-3, .logo-4, .logo-search {
+  background-image: url('/./src/img/logo-s6a3ed87e0b.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-1 {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-2 {
+  background-position: 0 -39px;
+}
+
+/* line 84, ../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-3 {
+  background-position: 0 -78px;
+}
+
+/* line 84, ../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-4 {
+  background-position: 0 -117px;
+}
+
+/* line 84, ../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.logo-search {
+  background-position: 0 -160px;
+}
+
+/* line 4, ../scss/index.scss */
 body, p {
   padding: 0;
   margin: 0;
 }
 
-/* line 7, ../scss/index.scss */
+/* line 8, ../scss/index.scss */
 img {
   display: block;
   border: 0;
 }
 
-/* line 12, ../scss/index.scss */
+/* line 13, ../scss/index.scss */
 html {
   font-size: 100px;
   font-family: 'Microsoft Yahei', Arial;
 }
 
-/* line 16, ../scss/index.scss */
+/* line 17, ../scss/index.scss */
 header nav, .nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 23, ../scss/index.scss */
+/* line 24, ../scss/index.scss */
 header nav {
   height: 1.2rem;
   box-shadow: 0 2px 4px #666;
 }
-/* line 27, ../scss/index.scss */
+/* line 28, ../scss/index.scss */
 header nav a {
   display: inline-block;
   width: 0.5rem;
@@ -125,64 +196,64 @@ header nav a {
   background-position: center;
   background-size: contain;
 }
-/* line 38, ../scss/index.scss */
+/* line 39, ../scss/index.scss */
 header nav a:nth-child(1) {
   background-image: url(../img/1.png);
 }
-/* line 41, ../scss/index.scss */
+/* line 42, ../scss/index.scss */
 header nav a:nth-child(2) {
   background-image: url(../img/2.png);
 }
-/* line 44, ../scss/index.scss */
+/* line 45, ../scss/index.scss */
 header nav a:nth-child(3) {
   width: 3.86rem;
   padding: 0;
   line-height: 0.44rem;
   text-align: center;
 }
-/* line 50, ../scss/index.scss */
+/* line 51, ../scss/index.scss */
 header nav a:nth-child(4) {
   background-image: url(../img/3.png);
 }
-/* line 53, ../scss/index.scss */
+/* line 54, ../scss/index.scss */
 header nav a:nth-child(5) {
   background-image: url(../img/4.png);
 }
 
-/* line 58, ../scss/index.scss */
+/* line 59, ../scss/index.scss */
 .nav {
   height: 0.8rem;
 }
-/* line 61, ../scss/index.scss */
+/* line 62, ../scss/index.scss */
 .nav a {
   padding: 0 0.4rem;
   font-size: 0.26rem;
 }
 
-/* line 66, ../scss/index.scss */
+/* line 67, ../scss/index.scss */
 img {
   height: 5rem;
   width: 100%;
 }
 
-/* line 70, ../scss/index.scss */
+/* line 71, ../scss/index.scss */
 .go-goods {
   height: 2.92rem;
   text-align: center;
   letter-spacing: 0.05em;
 }
-/* line 74, ../scss/index.scss */
+/* line 75, ../scss/index.scss */
 .go-goods p:nth-child(1) {
   padding-top: 0.5rem;
   font-size: 0.46rem;
   font-weight: bold;
 }
-/* line 79, ../scss/index.scss */
+/* line 80, ../scss/index.scss */
 .go-goods p:nth-child(2) {
   padding: 0.1rem 0 0.4rem;
   font-size: 0.28rem;
 }
-/* line 83, ../scss/index.scss */
+/* line 84, ../scss/index.scss */
 .go-goods p:nth-child(3) {
   width: 2rem;
   height: 0.6rem;

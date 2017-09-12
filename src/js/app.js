@@ -1,5 +1,5 @@
 require('babel-polyfill')
-
+require('es6-promise').polyfill();
 import '../css/index.css';
 //import '../css/index.scss';
 import React, { Component } from 'react'
