@@ -1,4 +1,5 @@
 @import 'compass/reset';
+@import 'tab-ul';
 body,p {
     padding: 0;
     margin: 0;
@@ -18,7 +19,7 @@ html {
     align-items: center;
 }
 header {
-    color: hsl(240,100%,50%);
+    
     nav {
         height: 1.2rem;
         box-shadow: 0 2px 4px #666;
@@ -27,7 +28,7 @@ header {
             display: inline-block;
             width: 0.5rem;
             height: 0.44rem;
-            margin: 0 0.05rem;
+            padding: 0 0.2rem;
             font-weight: bold;
             font-size: 0.26rem;
             background-repeat: no-repeat;
@@ -42,6 +43,7 @@ header {
         }
         a:nth-child(3) {
             width: 3.86rem;
+            padding: 0;
             line-height: 0.44rem;
             text-align: center;
         }
@@ -58,7 +60,7 @@ header {
     height: 0.8rem;
     a {
         padding: 0 0.4rem;
-        font-size: 0.22rem;
+        font-size: 0.26rem;
     }
 }
 img {

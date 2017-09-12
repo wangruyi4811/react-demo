@@ -1,0 +1,16 @@
+.goods-class {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    border: 2px solid red;
+    ul {
+        width: 100%;
+    } 
+    li {
+        display: inline-block;
+        width: 33.33%;
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+    }
+}

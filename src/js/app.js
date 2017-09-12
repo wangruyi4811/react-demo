@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom'
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 
 import IndexComponent from './IndexComponent'
+import TabUlComponent from './TabUlComponent'
 
 ReactDOM.render(  
   (
@@ -20,7 +21,7 @@ ReactDOM.render(
     keyLength={6}
     
     >
-      <IndexComponent/>
+      <TabUlComponent/>
     </Router>
   ),
   document.getElementById('root')
