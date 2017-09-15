@@ -2,17 +2,7 @@ import React ,{
     Component
 } from 'react'
 
-const Header = () => (
-    <header>
-        <nav>
-            <a></a>
-            <a></a>
-            <a>BESTSELLER</a>
-            <a></a>
-            <a></a>
-        </nav>
-    </header>
-)
+import Header from './HeaderComponent'
 const Nav = () => (
     <nav className="nav">
         <a>女装</a>
@@ -29,7 +19,7 @@ const Main = () => (
         <section className="go-goods">
             <p>HOT&nbsp;&nbsp;SALE</p>
             <p>让心动夏装带你走遍世界</p>
-            <p>查看系列商品</p>
+            <p>查看系列商品2313</p>
         </section>
         <section>
             <img src="http://willam.wang/img/down.png"/>

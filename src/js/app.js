@@ -6,10 +6,12 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 //import { Router, Route, hashHistory } from 'react-router';
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
-
+import Header from './HeaderComponent'
 import IndexComponent from './IndexComponent'
 import TabUlComponent from './TabUlComponent'
-
+import MenuComponent from './MenuComponent'
+import ShoppingComponent from './navTip/ShoppingComponent'
+import GoodsListComponent from './GoodsListComponent'
 ReactDOM.render(  
   (
     <Router
@@ -21,7 +23,12 @@ ReactDOM.render(
     keyLength={6}
     
     >
-      <TabUlComponent/>
+      <div>
+        <Header/>
+        <ShoppingComponent/>
+        <GoodsListComponent/>
+      </div>
+      
     </Router>
   ),
   document.getElementById('root')

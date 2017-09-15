@@ -24,7 +24,7 @@ module.exports = {
 			title: 'index',
 			template: 'index.html',
 			date: new Date(),
-			chunks:['main']
+			chunks:['a','main']
 		}),
 		new webpack.DefinePlugin({
 		  'process.env': {
@@ -47,7 +47,8 @@ module.exports = {
 					{
 						loader: 'babel-loader',
 						options: {
-							presets: ["env","react"]
+							presets: ["env","stage-0","react"],
+							plugins:['transform-runtime']
 						}
 					}
 				]

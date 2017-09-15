@@ -1,0 +1,20 @@
+.nav {
+    @extend %center;
+    height: 0.8rem;
+    font-size: 0.26rem;
+    a {
+        padding: 0 0.4rem; 
+    }
+}
+.nav-bar {
+    @extend .nav;
+    width: 100%;
+    border: 1px solid #333;
+    @at-root .back-btn {
+
+    }
+    a {
+        flex-grow: 2;
+        text-align: center;
+    }
+}

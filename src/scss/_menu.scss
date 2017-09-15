@@ -1,0 +1,8 @@
+.menu {
+    @extend %nav-box;
+    color: #333;
+    p {
+        padding: 0.36rem 0;
+        text-align: center;
+    }
+}

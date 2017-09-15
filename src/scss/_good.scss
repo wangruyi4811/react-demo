@@ -1,0 +1,11 @@
+.good-box {
+    @extend %center;
+    font-size: 0.26rem;
+    img {
+        width: 1.6rem;
+        height: 2.4rem;
+    }
+    ul {
+        height: 2.4rem;
+    }
+}
