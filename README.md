@@ -3,7 +3,7 @@
 * index-page
 * car-page
 * goods-list-page
-* goods-etail-page
+* goods-detail-page
 * login-page
 * order-save-page
 * address-page
