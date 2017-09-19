@@ -1,0 +1,42 @@
+.edit-icon {
+    margin-left: 0.12rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-image: url('../img/images/collection.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.count {
+    width: 0.2rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+.total {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.22rem;
+    text-align: center;
+    align-items: center;
+    div:nth-child(1) {
+        height: 0.8rem;
+        line-height: 0.8rem;
+        flex-grow: 2;
+        border-right: 1px solid #b3b3b3;
+    }
+    div:nth-child(2) {
+        flex-grow: 3;
+    }
+    div:nth-child(3) {
+        flex-grow: 3;
+        background: #2a2a2a;
+        color: #fff;
+    }
+}

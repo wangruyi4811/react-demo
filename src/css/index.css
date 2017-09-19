@@ -223,6 +223,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
+/* line 1, ../scss/_goods-detail.scss */
+.edit-icon {
+  margin-left: 0.12rem;
+  width: 0.2rem;
+  height: 0.2rem;
+  background-image: url("../img/images/collection.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 9, ../scss/_goods-detail.scss */
+.count {
+  width: 0.2rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  text-align: center;
+  border: 1px solid #222;
+  cursor: pointer;
+}
+
+/* line 17, ../scss/_goods-detail.scss */
+.total {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.22rem;
+  text-align: center;
+  align-items: center;
+}
+/* line 28, ../scss/_goods-detail.scss */
+.total div:nth-child(1) {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  flex-grow: 2;
+  border-right: 1px solid #b3b3b3;
+}
+/* line 34, ../scss/_goods-detail.scss */
+.total div:nth-child(2) {
+  flex-grow: 3;
+}
+/* line 37, ../scss/_goods-detail.scss */
+.total div:nth-child(3) {
+  flex-grow: 3;
+  background: #2a2a2a;
+  color: #fff;
+}
+
 /* line 1, ../scss/_good.scss */
 .good-box {
   font-size: 0.26rem;
@@ -237,37 +288,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 2.4rem;
 }
 
-/* line 9, ../scss/index.scss */
+/* line 10, ../scss/index.scss */
 body, p {
   padding: 0;
   margin: 0;
 }
 
-/* line 13, ../scss/index.scss */
+/* line 14, ../scss/index.scss */
 img {
   display: block;
   border: 0;
 }
 
-/* line 18, ../scss/index.scss */
+/* line 19, ../scss/index.scss */
 html {
   font-size: 100px;
   font-family: 'Microsoft Yahei', Arial;
 }
 
-/* line 22, ../scss/index.scss */
+/* line 23, ../scss/index.scss */
 .nav, .nav-bar, .good-box, header nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 29, ../scss/index.scss */
+/* line 30, ../scss/index.scss */
 header nav {
   height: 1.2rem;
   box-shadow: 0 2px 4px #666;
 }
-/* line 33, ../scss/index.scss */
+/* line 34, ../scss/index.scss */
 header nav a {
   display: inline-block;
   width: 0.5rem;
@@ -279,54 +330,54 @@ header nav a {
   background-position: center;
   background-size: contain;
 }
-/* line 44, ../scss/index.scss */
+/* line 45, ../scss/index.scss */
 header nav a:nth-child(1) {
   background-image: url(../img/1.png);
 }
-/* line 47, ../scss/index.scss */
+/* line 48, ../scss/index.scss */
 header nav a:nth-child(2) {
   background-image: url(../img/2.png);
 }
-/* line 50, ../scss/index.scss */
+/* line 51, ../scss/index.scss */
 header nav a:nth-child(3) {
   width: 3.86rem;
   padding: 0;
   line-height: 0.44rem;
   text-align: center;
 }
-/* line 56, ../scss/index.scss */
+/* line 57, ../scss/index.scss */
 header nav a:nth-child(4) {
   background-image: url(../img/3.png);
 }
-/* line 59, ../scss/index.scss */
+/* line 60, ../scss/index.scss */
 header nav a:nth-child(5) {
   background-image: url(../img/4.png);
 }
 
-/* line 65, ../scss/index.scss */
+/* line 66, ../scss/index.scss */
 img {
   height: 5rem;
   width: 100%;
 }
 
-/* line 69, ../scss/index.scss */
+/* line 70, ../scss/index.scss */
 .go-goods {
   height: 2.92rem;
   text-align: center;
   letter-spacing: 0.05em;
 }
-/* line 73, ../scss/index.scss */
+/* line 74, ../scss/index.scss */
 .go-goods p:nth-child(1) {
   padding-top: 0.5rem;
   font-size: 0.46rem;
   font-weight: bold;
 }
-/* line 78, ../scss/index.scss */
+/* line 79, ../scss/index.scss */
 .go-goods p:nth-child(2) {
   padding: 0.1rem 0 0.4rem;
   font-size: 0.28rem;
 }
-/* line 82, ../scss/index.scss */
+/* line 83, ../scss/index.scss */
 .go-goods p:nth-child(3) {
   width: 2rem;
   height: 0.6rem;

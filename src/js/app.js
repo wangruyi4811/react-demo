@@ -10,8 +10,8 @@ import Header from './HeaderComponent'
 import IndexComponent from './IndexComponent'
 import TabUlComponent from './TabUlComponent'
 import MenuComponent from './MenuComponent'
-import ShoppingComponent from './navTip/ShoppingComponent'
-import GoodsListComponent from './GoodsListComponent'
+import ShoppingListComponent from './pages/ShoppingListComponent'
+import {TipNavComponent} from './common/TipNavComponent'
 ReactDOM.render(  
   (
     <Router
@@ -25,8 +25,11 @@ ReactDOM.render(
     >
       <div>
         <Header/>
-        <ShoppingComponent/>
-        <GoodsListComponent/>
+        <div style={{'padding':'0 0.3rem','fontSize':'0.26rem'}}>
+          <TipNavComponent/>
+          <ShoppingListComponent/>
+        </div>
+        
       </div>
       
     </Router>
